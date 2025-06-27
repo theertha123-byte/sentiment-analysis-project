@@ -1,50 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IMDB Sentiment Analysis</title>
+  <meta charset="UTF-8">
+  <title>IMDB Sentiment Analysis using NLP and ML</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      padding: 2rem;
+      background: #f5f5f5;
       color: #333;
-    }
-    h1 {
-      color: #1a73e8;
-    }
-    .container {
       max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 2rem;
-      border-radius: 8px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: white;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    ul {
-      padding-left: 20px;
+
+    h1 {
+      color: #2c3e50;
     }
+
     a {
-      color: #007acc;
+      color: #2980b9;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #219150;
+    }
+
+    ul {
+      line-height: 1.8;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>IMDB Sentiment Analysis using NLP and ML</h1>
-    <p>This project analyzes movie reviews and classifies them as positive or negative using machine learning.</p>
-    <h2>Project Files</h2>
-    <ul>
-      <li><a href="Model%20training.ipynb">Model training notebook</a></li>
-      <li><a href="data%20exploration.ipynb">Data exploration notebook</a></li>
-      <li><a href="text%20processing.ipynb">Text processing notebook</a></li>
-    </ul>
-    <p>GitHub repo: <a href="https://github.com/theertha123-byte/sentiment-analysis-project">View on GitHub</a></p>
-  </div>
+
+  <h1>IMDB Sentiment Analysis using NLP and ML</h1>
+
+  <p>This project analyzes IMDB movie reviews and classifies them as <strong>positive</strong> or <strong>negative</strong> using Natural Language Processing (NLP) and a Machine Learning (ML) model trained on a preprocessed dataset.</p>
+
+  <h2>Project Files</h2>
+  <ul>
+    <li><a href="Model%20training.ipynb" target="_blank">Model Training Notebook</a></li>
+    <li><a href="data%20exploration.ipynb" target="_blank">Data Exploration Notebook</a></li>
+    <li><a href="text%20processing.ipynb" target="_blank">Text Processing Notebook</a></li>
+    <li><a href="gradio_demo.ipynb" target="_blank">Gradio Demo Notebook</a></li>
+  </ul>
+
+  <h2>Live Demo</h2>
+  <a href="https://afa9545996526d6f1d.gradio.live" class="btn" target="_blank">Try the Sentiment Analyzer</a>
+
+  <p style="margin-top: 30px;">📁 View the full project repo on 
+    <a href="https://github.com/theertha123-byte/sentiment-analysis-project" target="_blank">GitHub</a>.
+  </p>
+
 </body>
 </html>
